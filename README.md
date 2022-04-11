@@ -55,7 +55,7 @@ What's more, NEON provides a simple way to transform original SSE2 SIMD instruct
 
 In our project, we use the NEON and ISPC to generate SIMD codes, and compare its performance difference between two different chip running environments.
 
-For benchmarking reasons, we based the benchmarking project on the graphic application. Specifically, we did experiments on BVH (Bounding Volume Hierarchies).
+For benchmarking reasons, we based the benchmarking project on the graphic application. Specifically, we did experiments on BVH (Bounding Volume Hierarchies). Based on the [existing project](https://github.com/betajippity/sseneoncompare).
 
 Here are some results that we have retrieved.
 
