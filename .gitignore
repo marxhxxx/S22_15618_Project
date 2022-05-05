@@ -34,3 +34,4 @@
 # vscode
 .metals/*
 .vscode/*
+.DS_Store

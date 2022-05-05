@@ -50,17 +50,17 @@ Here are some important benchmark figures.
 
 ## CPU
 
-![image](imgs/Geekbench%20Single-Core%20Score.png)
+![image](report_latex/Geekbench%20Single-Core%20Score.png)
 
-![image](imgs/Geekbench%20Multi-Core%20Score.png)
+![image](report_latex/Geekbench%20Multi-Core%20Score.png)
 
-![image](imgs/Geekbench%20Multi-Core%20Speedup.png)
+![image](report_latex/Geekbench%20Multi-Core%20Speedup.png)
 
 
 ## GPU
-![image](imgs/gpu_inference.jpg)
+![image](report_latex/gpu_inference.jpg)
 
-![image](imgs/gpu_training.jpg)
+![image](report_latex/gpu_training.jpg)
 
 ## ANE
-![image](imgs/neural_benchmark.jpg)
+![image](report_latex/neural_benchmark.jpg)
