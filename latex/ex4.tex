@@ -146,7 +146,7 @@ As shown in the benchmark result section, Apple M1 Max and Intel Core i7-9750H a
     \item Cores are running at lower frequency compared to single core boost clock rate. Apple M1 Max Firestorm cores run at 3036MHz when all 4 cores in a single cluster are active which is lower than the single-core 3228MHz. i7-9750H 6-core boost frequency is 4.0GHz instead of 4.5GHz when only one core is boosted.
     \item Apple M1 Max is a heterogeneous design, the 2 Icestorm cores have much weaker performance due to narrower microarchitecture and lower clock rate. 
     \item The overhead caused by communication between cores and scheduling tasks among cores is inevitable.
-    \item According to Amdah’s law,  the performance improvement of a program is limited by the fraction of the program that is parallelizable. This reason might be minor since a benchmark application would try to maximize the parallized part.
+    \item According to Amdahl’s law,  the performance improvement of a program is limited by the fraction of the program that is parallelizable. This reason might be minor since a benchmark application would try to maximize the parallized part.
 \end{itemize}
 Because the exact performance difference between Firestorm cores and Icestorm cores is unclear, it’s hard to compare the two SoCs' multi-core parallelism efficiency in an accurate way. But generally, they are performing on a similar level.
 \subsection*{Improvement}
